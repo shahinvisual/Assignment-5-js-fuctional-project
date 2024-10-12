@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5-js-fuctional-project</title>
+    <!-- Google Font Lexend -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <!-- DaisyUi CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Css Style Font -->
+    <style>
+        .lexend-font {
+            font-family: "Lexend", sans-serif;
+        }
+
+        .bg-blacks {
+            background-color: green;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        heading_bg: 'rgb(249, 247, 243)',
+                        btnblog_color: 'rgb(180, 244, 97)',
+                        text_color: 'rgba(17, 17, 17, 0.7)',
+                        bgb_color: 'rgba(17, 17, 17, 0.05)',
+                        border_color: 'rgba(17, 17, 17, 0.1)',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="">
+    <!-- Header Section -->
+    <header class="bg-heading_bg">
+        <nav class="md:container mx-auto py-6">
+            <div class="navbar flex justify-between">
+                <div class="">
+                    <button class="btn bg-btnblog_color">Blog</button>
+                </div>
+                <div class="navbar-center hidden lg:flex gap-3">
+                    <img src="assets/logo.png" alt="">
+                    <h3 class="text-2xl font-bold">Donate Bangladesh</h3>
+                </div>
+                <div class="gap-2">
+                    <img src="assets/coin.png" alt="">
+                    <h3 class="text-2xl font-bold text-text_color">5500</h3>
+                    <h3 class="text-2xl font-semibold text-text_color">BDT</h3>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main class="container mx-auto my-20">
+        <section>
+            <!-- Button -->
+            <div class="flex justify-center gap-3">
+                <button class="btn bg-btnblog_color">Donation</button>
+                <button class="btn btn-outline">History</button>
+            </div>
+            <!-- Hero Card Section -->
+            <div class="my-8 space-y-6 max-w-7xl mx-auto">
+                <div class="collapse collapse-arrow  border border-border_color rounded-xl">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title text-xl font-bold">96500 Taka is Donated for famine-2024 at Feni, Bangladesh</div>
+                    <div class="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow  border border-border_colorrounded-xl">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-bold">6500 Taka is Donated for Flood Relief in Feni,Bangladesh</div>
+                    <div class="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow  border border-border_color rounded-xl">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-xl font-bold">15500 Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh</div>
+                    <div class="collapse-content">
+                        <p>hello</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer></footer>
+</body>
+
+</html>
