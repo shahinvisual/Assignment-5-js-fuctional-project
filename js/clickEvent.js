@@ -22,6 +22,7 @@ document.getElementById('donate-click-event')
             <p> date: ${new Date().toLocaleString()} bangladesh standard time </p>`
 
             document.getElementById('section-hidden-transaction').prepend(div, div.firstChild);
+            document.getElementById('my_modal_1').showModal();
         }
 
     })
@@ -50,6 +51,7 @@ document.getElementById('donate-click-event-1')
             <p> date: ${new Date().toLocaleString()} bangladesh standard time </p>`
 
             document.getElementById('section-hidden-transaction').prepend(div, div.firstChild);
+            document.getElementById('my_modal_1').showModal();
         }
 
     })
@@ -78,6 +80,7 @@ document.getElementById('donate-click-event-1')
             <p> date: ${new Date().toLocaleString()} bangladesh standard time </p>`
 
             document.getElementById('section-hidden-transaction').prepend(div, div.firstChild);
+            document.getElementById('my_modal_1').showModal();
         }
 
     })
